@@ -101,7 +101,7 @@ class Widget extends Component {
                         </label>
                     </div>
                     <div className="widget-container__footer">
-                        <span>{`${this.state.selectedOption}`}</span>
+                        <span className="widget-container__footer_total-price">{`${this.state.selectedOption}`}</span>
                         <button
                             className="widget-container__footer_submit-btn"
                             type="submit"

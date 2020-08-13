@@ -38,6 +38,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        &_total-price {
+            font-size: 1.3em;
+        }
         &_submit-btn {
             background: #6ca22c;
             border-radius: 8px;
